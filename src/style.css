@@ -8,21 +8,26 @@ html
 {
     background: white;
 }
-body
-/* {
+/* body
+{
     overflow: hidden;
 } */
-
+.mainBorder {
+    border-style: solid;
+    border-width: 40px;
+    border-color: rgb(38, 38, 136);
+    background-color: aqua;
+}
 .webgl
 {
     position: fixed;
-    top: 0;
+    /* top: 0;
     left: 0;
-    outline: none;
+    outline: none; */
 }
 
 
-.section
+section
 {
     display: flex;
     align-items: center;
@@ -34,6 +39,9 @@ body
     font-size: 7vmin;
     padding-left: 10%;
     padding-right: 10%;
+    border-width: 50px;
+    
+
 }
 
 section:nth-child(odd)
