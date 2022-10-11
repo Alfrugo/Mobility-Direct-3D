@@ -5,6 +5,8 @@ body{
     border-style: solid;
     margin: 0;
     overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-align: ;
 }
 .logo{
     background-color: blueviolet;
@@ -12,20 +14,31 @@ body{
     z-index: 10;
     width: 30em;
     margin: auto;    /* this centers */
+    margin-top: 2em;
 }
 .heroImage{
     width: 100%;
 }
 .hero{
-    /* background-color: aqua; */
+    background-color: aqua;
     position: relative;
     margin-left: -5em;
     margin-bottom: -5em;
     margin-top: -4em;
-    width: 40em;
+    width: 75%;
+    max-width: 50em;
+    min-width: 35em;
 }
 .titleOne{
     position: relative;
     background-color: brown;
+    width: 35%;
+    margin-top: -20em;
+    margin-left: 60%;
+}
+.sectionOne{
+    height: 50vw;
+    min-height: 25em;
+    max-height: 35em;
     
 }
