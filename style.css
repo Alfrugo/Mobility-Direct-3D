@@ -9,7 +9,7 @@ body{
     scroll-snap-align: ;
 }
 .logo{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     position: relative;
     z-index: 10;
     width: 30em;
@@ -20,7 +20,7 @@ body{
     width: 100%;
 }
 .hero{
-    background-color: aqua;
+    /* background-color: aqua; */
     position: relative;
     margin-left: -5em;
     margin-bottom: -5em;
@@ -31,7 +31,7 @@ body{
 }
 .titleOne{
     position: relative;
-    background-color: brown;
+    /* background-color: brown; */
     width: 35%;
     margin-top: -20em;
     margin-left: 60%;
