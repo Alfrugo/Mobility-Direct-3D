@@ -5,16 +5,16 @@ body{
     border-style: solid;
     margin: 0;
     overflow: hidden;
-    scroll-behavior: smooth;
-    scroll-snap-align: ;
+
 }
 .logo{
     /* background-color: blueviolet; */
     position: relative;
+    padding-top: 2em;
     z-index: 10;
     width: 30em;
     margin: auto;    /* this centers */
-    margin-top: 2em;
+    /* margin-top: 2em; */
 }
 .heroImage{
     width: 100%;
@@ -37,8 +37,10 @@ body{
     margin-left: 60%;
 }
 .sectionOne{
-    height: 50vw;
-    min-height: 25em;
-    max-height: 35em;
+    margin-top: 0;
+    height: 65vw;
+    min-height: 30em;
+    max-height: 40em;
+    background-image: url("/assets/purplebackground-01.svg");
     
 }
