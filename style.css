@@ -1,10 +1,9 @@
 body{
     background-color: blue;
     border-width: 10px;
-    border-color: rgb(234, 234, 234);
+    border-color: rgb(255, 255, 255);
     border-style: solid;
     margin: 0;
-    overflow: hidden;
 
 }
 .logo{
@@ -42,5 +41,13 @@ body{
     min-height: 30em;
     max-height: 40em;
     background-image: url("/assets/purplebackground-01.svg");
-    
+}
+.sectionTwo{
+    height: 45vw;
+    min-height: 30em;
+    max-height: 40em;
+    background-image: url('/assets/orangebackground-01.svg');
+    border-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
 }
