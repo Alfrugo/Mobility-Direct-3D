@@ -43,13 +43,13 @@ body{
     height: 65vw;
     min-height: 30em;
     max-height: 45em;
-    background-image: url("/assets/purplebackground-01.svg");
+    background-image: url("./assets/purplebackground-01.svg");
 }
 .sectionTwo{
     /* height: 35vw; */
     min-height: 10em;
     max-height: 40em;
-    background-image: url('/assets/orangebackground-01.svg');
+    background-image: url('./assets/orangebackground-01.svg');
     border-top: 10px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
