@@ -84,8 +84,11 @@ body{
 h1{
     font-weight: lighter;
     color: white;
+    margin-bottom: 0;
 }
 h2{
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: normal;
     color: white;
     font-size: 3em;
