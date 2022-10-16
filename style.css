@@ -76,7 +76,12 @@ body{
 }
 
 .sectionFourtext{
-    padding: 0 3em 1em 3em;
+    padding: 0em 0em 0em 3em;
+}
+
+.transformingFac {
+    max-width: 500px;
+    margin: auto;
 }
 
 .facilityRender {
@@ -132,8 +137,9 @@ h3{
 }
 
 p{
-    font-weight: normal;
-    color: white;
+    font-weight: lighter;
+    color: rgb(207, 206, 206);
+    font-size: large;
 }
 
 .flex-container{
@@ -145,6 +151,18 @@ p{
     margin: auto;
     width: 30%;
     margin-top: -2em;
+}
+
+.flex-facility-container{
+    display: flex;
+}
+
+.flex-facility-container > div {
+    /* background-color: blueviolet; */
+    margin: auto;
+    width: 50%;
+    padding: 0 2em 0 2em;
+    /* margin-top: -2em; */
 }
 
 .blocks3d {
