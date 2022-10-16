@@ -55,6 +55,34 @@ body{
     border-style: solid;
     padding: 0 3em 3em 3em;
 }
+.sectionThree{
+    /* height: 35vw; */
+    background-image: url('./assets/anoption-01.svg');
+    border-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 0 3em 3em 3em;
+    margin: auto;
+}
+
+.sectionFour{
+    /* height: 35vw; */
+    background-image: url('./assets/amberbackground-01.svg');
+    border-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 0 1em 1em 1em;
+    margin: auto;
+}
+
+.sectionFourtext{
+    padding: 0 3em 1em 3em;
+}
+
+.facilityRender {
+    width: 100%;
+    margin-bottom: -75px;
+}
 
 .requestDemo1 {
     position: relative;
@@ -64,8 +92,8 @@ body{
     margin: auto;
     margin-right: 100px;
     margin-top: -35px;
-   
 }
+
 .requestDemoText {
     position: relative;
     background-color: #423f8f;
@@ -81,21 +109,48 @@ body{
     height: 65px;
     font-size: 20px;
 }
+
 h1{
     font-weight: lighter;
     color: white;
     margin-bottom: 0;
 }
+
 h2{
     margin-top: 0;
     margin-bottom: 0;
     font-weight: normal;
     color: white;
     font-size: 3em;
-
 }
+h3{
+    position: relative;
+    font-weight:100;
+    color: #423f8f;
+    font-size: 3.5em;
+    text-align: center;
+}
+
 p{
     font-weight: normal;
     color: white;
+}
 
+.flex-container{
+    display: flex;
+}
+
+.flex-container > div {
+    /* background-color: blueviolet; */
+    margin: auto;
+    width: 30%;
+    margin-top: -2em;
+}
+
+.blocks3d {
+    /* width: 200px; */
+}
+
+.blocks{
+    width: 100%;
 }
