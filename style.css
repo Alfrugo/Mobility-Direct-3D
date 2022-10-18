@@ -134,6 +134,7 @@ h3{
     color: #423f8f;
     font-size: 3.5em;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 p{
@@ -159,25 +160,43 @@ p{
 
     .flex-container{
         display: flex;
+        margin: auto;
+        width: 100%;
+        margin-top: -8em;
+    }
+    .flex-container > .blocks3d-3 {
+        width: 20%;
+        z-index: 4;
+        margin: auto;
+    }
+    .flex-container > .blocks3d-2 {
+        width: 24%;
+        margin: auto;
+        z-index: 3;
     }
 
-
-    .flex-container > .blocks3d-3 {
-        width: 30%;
+    .flex-container > .blocks3d {
+        width: 28%;
+        margin: auto;
     }
 
     .flex-container > .tierTitle3{
-        width: 30%;
-        vertical-align: middle;
-        margin-top: 10%;
-        color: rgb(70, 82, 55);
+        width: 20%;
+        /* vertical-align: middle; */
+        /* margin-top: 6%; */
+        color: rgb(77, 77, 77);
+        /* line-height: 22px; */
         font-weight: 700;
-        font-size: larger;
-        padding-left: 10%;
+        font-size: 1.5em;
+        /* padding-left: 3%; */
+        min-width: 180px;
+        max-width: 200px;
     }
 
     .flex-container > .tierDescription3 {
-        width: 30%;
+        width: 45%;
+        /* margin-top: 6%; */
+        
     }
 
 /* end of section */
