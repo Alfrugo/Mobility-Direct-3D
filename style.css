@@ -148,33 +148,54 @@ p{
     font-size: 1.5em;
 }
 
-.flex-container{
-    display: flex;
-}
+/*   */
+/* An option for every agency section  */
+/*   */
 
-.flex-container > div {
-    /* background-color: blueviolet; */
-    margin: auto;
-    width: 30%;
-    margin-top: -2em;
-}
+    .blockTier3{  
+        width: 100%;
+        margin: auto;
+    }
 
-.flex-facility-container{
-    display: flex;
-}
+    .flex-container{
+        display: flex;
+    }
 
-.flex-facility-container > div {
-    /* background-color: blueviolet; */
-    margin: auto;
-    width: 50%;
-    padding: 0 2em 0 2em;
-    /* margin-top: -2em; */
-}
 
-.blocks3d {
-    /* width: 200px; */
-}
+    .flex-container > .blocks3d-3 {
+        width: 30%;
+    }
 
-.blocks{
-    width: 100%;
-}
+    .flex-container > .tierTitle3{
+        width: 30%;
+        vertical-align: middle;
+        margin-top: 10%;
+        color: rgb(70, 82, 55);
+        font-weight: 700;
+        font-size: larger;
+        padding-left: 10%;
+    }
+
+    .flex-container > .tierDescription3 {
+        width: 30%;
+    }
+
+/* end of section */
+
+
+/* Section facility plant  */
+
+    .flex-facility-container{
+        display: flex;
+    }
+
+    .flex-facility-container > div {
+        /* background-color: blueviolet; */
+        margin: auto;
+        width: 50%;
+        padding: 0 2em 0 2em;
+        /* margin-top: -2em; */
+    }
+    
+/*   */
+
