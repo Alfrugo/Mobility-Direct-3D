@@ -182,6 +182,7 @@ p{
 
     .flex-container > .tierTitle3{
         width: 20%;
+        margin-top: 5em;
         /* vertical-align: middle; */
         /* margin-top: 6%; */
         color: rgb(77, 77, 77);
