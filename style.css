@@ -1,12 +1,42 @@
 body {
   font-family: "myriad-pro";
-
   background-color: blue;
   border-width: 10px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
   margin: 0;
 }
+
+h1 {
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+    color: white;
+    font-size: 3em;
+  }
+  
+  h3 {
+    position: relative;
+    font-weight: 100;
+    color: #423f8f;
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+  
+  p {
+    font-weight: lighter;
+    color: rgb(207, 206, 206);
+    font-size: large;
+  }
+
+
 .logo {
   /* background-color: blueviolet; */
   position: relative;
@@ -19,8 +49,8 @@ body {
 .heroImage {
   width: 100%;
 }
+
 .hero {
-  /* background-color: aqua; */
   position: relative;
   margin-left: -5em;
   margin-bottom: -5em;
@@ -29,6 +59,7 @@ body {
   max-width: 60em;
   min-width: 35em;
 }
+
 .titleOne {
   position: relative;
   /* background-color: brown; */
@@ -37,6 +68,7 @@ body {
   margin-top: -400px;
   margin-left: 60%;
 }
+
 .sectionOne {
   margin-top: 0;
   height: 65vw;
@@ -44,8 +76,8 @@ body {
   max-height: 45em;
   background-image: url("./assets/purplebackground-01.svg");
 }
+
 .sectionTwo {
-  /* height: 35vw; */
   min-height: 10em;
   max-height: 40em;
   background-image: url("./assets/orangebackground-01.svg");
@@ -54,8 +86,8 @@ body {
   border-style: solid;
   padding: 0 3em 3em 3em;
 }
+
 .sectionThree {
-  /* height: 35vw; */
   background-image: url("./assets/anoption-01.svg");
   border-top: 10px;
   border-color: rgb(255, 255, 255);
@@ -65,7 +97,6 @@ body {
 }
 
 .sectionFour {
-  /* height: 35vw; */
   background-image: url("./assets/amberbackground-01.svg");
   border-top: 10px;
   border-color: rgb(255, 255, 255);
@@ -114,33 +145,7 @@ body {
   font-size: 20px;
 }
 
-h1 {
-  font-weight: lighter;
-  color: white;
-  margin-bottom: 0;
-}
 
-h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: normal;
-  color: white;
-  font-size: 3em;
-}
-h3 {
-  position: relative;
-  font-weight: 100;
-  color: #423f8f;
-  font-size: 3.5em;
-  text-align: center;
-  margin-bottom: 3em;
-}
-
-p {
-  font-weight: lighter;
-  color: rgb(207, 206, 206);
-  font-size: large;
-}
 
 .orangeEmpower {
   font-weight: lighter;
@@ -160,8 +165,8 @@ p {
 .flex-container {
   display: flex;
   margin: auto;
-  width: 100%;
-  margin-top: -8em;
+  width: 85%;
+  padding: 40px;
 }
 .flex-container > .blocks3d-3 {
   width: 20%;
@@ -195,8 +200,24 @@ p {
 
 .flex-container > .tierDescription3 {
   width: 45%;
-  /* margin-top: 6%; */
+  padding: 30px;  
 }
+
+.tierDescription3 {
+    background-color: rgb(88, 4, 85);
+    padding: 20px;
+    border-width: 8px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    margin: 10px;
+    border-radius: 30px;
+    color: rgb(215, 214, 214);
+
+}
+    
+
+
+
 
 /* end of section */
 
