@@ -27,8 +27,16 @@ h1 {
     color: #423f8f;
     font-size: 3.5em;
     text-align: center;
-    margin-bottom: 3em;
+    /* margin-bottom: 3em; */
   }
+
+  h5 {
+    font-weight: medium;
+    font-size: 1.7em;
+    text-align: center;
+    /* margin-bottom: 1em; */
+  }
+
   
   p {
     font-weight: lighter;
@@ -157,61 +165,45 @@ h1 {
 /* An option for every agency section  */
 /*   */
 
-.blockTier3 {
-  width: 100%;
-  margin: auto;
-}
+
 
 .flex-container {
   display: flex;
   margin: auto;
   width: 85%;
   padding: 40px;
-}
-.flex-container > .blocks3d-3 {
-  width: 20%;
-  z-index: 4;
-  margin: auto;
-}
-.flex-container > .blocks3d-2 {
-  width: 24%;
-  margin: auto;
-  z-index: 3;
+  color: rgb(215, 214, 214);
+
 }
 
-.flex-container > .blocks3d {
-  width: 28%;
-  margin: auto;
-}
+.tierDescriptionPro {
+  background-color: #452d9d;
+  padding: 20px;
+  border-width: 8px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  margin: 10px;
+  border-radius: 30px;
 
-.flex-container > .tierTitle3 {
-  width: 20%;
-  margin-top: 5em;
-  /* vertical-align: middle; */
-  /* margin-top: 6%; */
-  color: rgb(77, 77, 77);
-  /* line-height: 22px; */
-  font-weight: 700;
-  font-size: 1.5em;
-  /* padding-left: 3%; */
-  min-width: 180px;
-  max-width: 200px;
 }
+.tierDescriptionPlus {
+  background-color: #7e32a2;
+  padding: 20px;
+  border-width: 8px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  margin: 10px;
+  border-radius: 30px;
 
-.flex-container > .tierDescription3 {
-  width: 45%;
-  padding: 30px;  
 }
-
-.tierDescription3 {
-    background-color: rgb(88, 4, 85);
+.tierDescriptionSimple {
+    background-color: #99ac63;
     padding: 20px;
     border-width: 8px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
     margin: 10px;
     border-radius: 30px;
-    color: rgb(215, 214, 214);
 
 }
     
