@@ -153,8 +153,6 @@ h1 {
   font-size: 20px;
 }
 
-
-
 .orangeEmpower {
   font-weight: lighter;
   color: white;
@@ -164,7 +162,6 @@ h1 {
 /*   */
 /* An option for every agency section  */
 /*   */
-
 
 
 .flex-container {
@@ -227,4 +224,20 @@ h1 {
   /* margin-top: -2em; */
 }
 
-/*   */
+
+form {
+  width: 70%;
+}
+
+
+/* 
+input [type=text] {
+ 
+  border: 5px solid #1c851c;
+  
+  border-radius: 15px;
+}
+
+fieldset {
+  border: none;
+} */
