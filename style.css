@@ -1,6 +1,6 @@
 body {
   font-family: "myriad-pro";
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   border-width: 10px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
@@ -35,6 +35,7 @@ h1 {
     font-size: 1.7em;
     text-align: center;
     /* margin-bottom: 1em; */
+    margin-top: 10px;
   }
 
   
@@ -167,40 +168,47 @@ h1 {
 .flex-container {
   display: flex;
   margin: auto;
-  width: 85%;
-  padding: 40px;
-  color: rgb(215, 214, 214);
+  width: 95%;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  
 
 }
 
 .tierDescriptionPro {
   background-color: #452d9d;
-  padding: 20px;
-  border-width: 8px;
+  border-width: 5px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
+  border-radius: 20px;
+  padding: 30px;
   margin: 10px;
-  border-radius: 30px;
+
+
 
 }
 .tierDescriptionPlus {
   background-color: #7e32a2;
-  padding: 20px;
-  border-width: 8px;
+ 
+  border-width: 5px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
   margin: 10px;
   border-radius: 30px;
+  padding: 30px;
+
 
 }
 .tierDescriptionSimple {
+  border-width: 5px;
+
     background-color: #99ac63;
-    padding: 20px;
-    border-width: 8px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
     margin: 10px;
     border-radius: 30px;
+    padding: 30px;
+
 
 }
     
