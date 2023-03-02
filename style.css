@@ -38,13 +38,11 @@ h1 {
     margin-top: 10px;
   }
 
-  
   p {
     font-weight: lighter;
     color: rgb(207, 206, 206);
     font-size: large;
   }
-
 
 .logo {
   /* background-color: blueviolet; */
@@ -55,6 +53,9 @@ h1 {
   margin: auto; /* this centers */
   /* margin-top: 2em; */
 }
+
+
+
 .heroImage {
   width: 100%;
 }
@@ -102,16 +103,18 @@ h1 {
   border-top: 10px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
-  padding: 0 3em 3em 3em;
+  padding: 0 3em 3em 0em;
 }
 
 .divEfficiencies {
   margin: auto;
-  padding: 2em 3em 3em 3em;
+  text-align: center;
+  padding: 6em 0 0 4em;
 }
 
 .divEfficiencies li {
   /* margin: 30px, 30px, 30px, 30px; */
+  text-align: justify;
   padding: 1.5em 2em 0.75em 2em;
 }
 
@@ -120,11 +123,7 @@ h1 {
   font-size: 1.5em;
   font-weight: bold;
 }
-/* .divEfficiencies ul li h3 {
-  font-size: 12em;
-  font-weight: heavier;
-  color: white;
-} */
+
 
 .ulEfficiencies {
   list-style-type: none;
@@ -267,5 +266,39 @@ h1 {
 }
 
 form {
-  width: 70%;
+  width: 78%;
+}
+
+
+.sectionFooter {
+  background-image: url("./assets/purplebackground-01.svg");
+  border-top: 10px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  padding: 1em 6em 1em 3em;
+}
+
+.flex-footer-container {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+.logoFooter {
+  /* background-color: blueviolet; */
+  position: relative;
+  padding: 2em 2em 2em 0;
+  z-index: 10;
+  width: 20em;
+  margin: auto;
+  /* margin: auto; this centers */
+  /* margin-top: 2em; */
+}
+
+h6 {
+  font-size: 1.5em;
+  margin: auto;
+  /* font-weight: medium; */
+  color: rgb(212, 210, 210);
 }
