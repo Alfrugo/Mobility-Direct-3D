@@ -96,6 +96,16 @@ h1 {
   padding: 0 3em 3em 3em;
 }
 
+.sectionEfficiencies {
+  min-height: 10em;
+  max-height: 40em;
+  background-image: url("./assets/green-background.svg");
+  border-top: 10px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  padding: 0 3em 3em 3em;
+}
+
 .sectionThree {
   background-image: url("./assets/anoption-01.svg");
   border-top: 10px;
