@@ -209,10 +209,9 @@ h5 {
   margin: auto;
 }
 
-#mobilityDirectBasic {
-  background-color: #452d9d;
-  height: 4em;
-  width: 4em;
+.mobilityDirectBasic {
+  max-width: 40px;
+  max-height: 40px;
   
 }
 
