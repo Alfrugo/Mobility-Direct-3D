@@ -30,13 +30,7 @@ h1 {
     /* margin-bottom: 3em; */
   }
 
-  h5 {
-    font-weight: medium;
-    font-size: 1.7em;
-    text-align: center;
-    /* margin-bottom: 1em; */
-    margin-top: 10px;
-  }
+
 
   p {
     font-weight: lighter;
@@ -136,14 +130,7 @@ h1 {
   border-radius: 10px;
 }
 
-.sectionThree {
-  background-image: url("./assets/anoption-01.svg");
-  border-top: 10px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  padding: 0 3em 3em 3em;
-  margin: auto;
-}
+
 
 .sectionFour {
   background-image: url("./assets/amberbackground-01.svg");
@@ -204,6 +191,30 @@ h1 {
 /* An option for every agency section  */
 /*   */
 
+h5 {
+  margin: 0.5em;
+  font-size: 1.7em;
+  text-align: center;
+  padding: 0 0 0 0;
+  /* margin-bottom: 1em; */
+  /* margin-top: 10px; */
+}
+
+.sectionTiers {
+  background-image: url("./assets/anoption-01.svg");
+  border-top: 10px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  padding: 0 3em 3em 3em;
+  margin: auto;
+}
+
+#mobilityDirectBasic {
+  background-color: #452d9d;
+  height: 4em;
+  width: 4em;
+  
+}
 
 .flex-container {
   display: flex;
@@ -214,8 +225,6 @@ h1 {
   font-weight: lighter;
   margin: auto;
   text-align: center;
-  
-
 }
 
 .tierDescriptionPro {
@@ -248,8 +257,9 @@ h1 {
   padding: 30px;
 }
     
-
 /* end of section */
+
+
 
 /* Section facility plant  */
 
@@ -265,9 +275,20 @@ h1 {
   /* margin-top: -2em; */
 }
 
+
+
+/* section form */
+
 form {
   width: 78%;
 }
+
+/* end of section */
+
+
+
+
+/*   Section footer  */
 
 
 .sectionFooter {
@@ -302,3 +323,4 @@ h6 {
   /* font-weight: medium; */
   color: rgb(212, 210, 210);
 }
+
