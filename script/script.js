@@ -8,12 +8,12 @@ const scene = new THREE.Scene()
 
 
 
-const basicMD = new THREE.OctahedronGeometry( 5, 0 )
+const basicMD = new THREE.OctahedronGeometry( 1, 0 )
 
 const geometry  = new THREE.BoxGeometry( 1, 1, 1 )
 const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } )
 
-const cube = new THREE.Mesh( geometry, material )
+const cube = new THREE.Mesh( basicMD, material )
 
 scene.add( cube )
 
@@ -38,5 +38,21 @@ const renderer = new THREE.WebGLRenderer(
 })
 renderer.setSize( sizes.width, sizes.height )
 
-renderer.render( scene, camera )
+// animations
 
+// renderer.render( scene, camera )
+
+
+const tick = () => {
+
+
+    cube.rotation.y += 0.01
+    renderer.render( scene, camera )
+
+
+
+    window.requestAnimationFrame( tick )
+
+}
+
+tick()
