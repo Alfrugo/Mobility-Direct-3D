@@ -13,15 +13,15 @@ const basicMD = new THREE.OctahedronGeometry( 1, 0 )
 const geometry  = new THREE.BoxGeometry( 1, 1, 1 )
 const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } )
 
-const cube = new THREE.Mesh( basicMD, material )
+const BasicMD = new THREE.Mesh( basicMD, material )
 
-scene.add( cube )
+scene.add( BasicMD )
 
 // sizes
 
 const sizes = {
-    width: 40,
-    height: 40
+    width: 100,
+    height: 100
 }
 
 // camera
@@ -34,7 +34,7 @@ scene.add ( camera )
 const canvas = document.querySelector('.mobilityDirectBasic')
 
 const renderer = new THREE.WebGLRenderer(
-    {canvas: canvas
+    {canvas: canvas, alpha: true, antiliasing: true 
 })
 renderer.setSize( sizes.width, sizes.height )
 
@@ -45,12 +45,8 @@ renderer.setSize( sizes.width, sizes.height )
 
 const tick = () => {
 
-
-    cube.rotation.y += 0.01
+    BasicMD.rotation.y += 0.01
     renderer.render( scene, camera )
-
-
-
     window.requestAnimationFrame( tick )
 
 }
