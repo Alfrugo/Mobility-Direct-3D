@@ -8,7 +8,7 @@ const scenePro = new THREE.Scene()
 
 const basicMD = new THREE.OctahedronGeometry( 1.5, 0 )
 const plusMD = new THREE.OctahedronGeometry(1.5, 1)
-const proMD = new THREE.OctahedronGeometry(1.5, 2)
+const proMD = new THREE.OctahedronGeometry(1.5, 10)
 
 const material = new THREE.MeshBasicMaterial(  )
 
