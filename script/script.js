@@ -2,20 +2,25 @@
 console.log(THREE)
 // scene
 
-const scene = new THREE.Scene()
+const sceneBasic = new THREE.Scene()
+const scenePlus = new THREE.Scene()
+const scenePro = new THREE.Scene()
 
+const basicMD = new THREE.OctahedronGeometry( 1.5, 0 )
+const plusMD = new THREE.OctahedronGeometry(1.5, 1)
+const proMD = new THREE.OctahedronGeometry(1.5, 2)
 
+const material = new THREE.MeshBasicMaterial(  )
 
-
-
-const basicMD = new THREE.OctahedronGeometry( 1, 0 )
-
-const geometry  = new THREE.BoxGeometry( 1, 1, 1 )
-const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } )
+material.wireframe = true
 
 const BasicMD = new THREE.Mesh( basicMD, material )
+const PlusMD = new THREE.Mesh ( plusMD, material )
+const ProMD = new THREE.Mesh ( proMD, material )
 
-scene.add( BasicMD )
+sceneBasic.add( BasicMD )
+scenePlus.add ( PlusMD )
+scenePro.add ( ProMD )
 
 // sizes
 
@@ -28,15 +33,29 @@ const sizes = {
 const camera = new THREE.PerspectiveCamera( 75, sizes.width / sizes.height )
 
 camera.position.z = 3
-scene.add ( camera )
+sceneBasic.add ( camera )
+// scenePlus.add ( camera )
+// scenePro.add ( camera )
 
 // renderer
-const canvas = document.querySelector('.mobilityDirectBasic')
+const canvasBasic = document.querySelector('.mobilityDirectBasic')
+const canvasPlus = document.querySelector('.mobilityDirectPlus')
+const canvasPro = document.querySelector('.mobilityDirectPro')
 
-const renderer = new THREE.WebGLRenderer(
-    {canvas: canvas, alpha: true, antiliasing: true 
+const rendererBasic = new THREE.WebGLRenderer(
+    {canvas: canvasBasic, alpha: true, antiliasing: true 
 })
-renderer.setSize( sizes.width, sizes.height )
+rendererBasic.setSize( sizes.width, sizes.height )
+
+const rendererPlus = new THREE.WebGLRenderer(
+    {canvas: canvasPlus, alpha: true, antiliasing: true 
+})
+rendererPlus.setSize( sizes.width, sizes.height )
+
+const rendererPro = new THREE.WebGLRenderer(
+    {canvas: canvasPro, alpha: true, antiliasing: true 
+})
+rendererPro.setSize( sizes.width, sizes.height )
 
 // animations
 
@@ -46,7 +65,18 @@ renderer.setSize( sizes.width, sizes.height )
 const tick = () => {
 
     BasicMD.rotation.y += 0.01
-    renderer.render( scene, camera )
+    BasicMD.rotation.z += 0.005
+
+    PlusMD.rotation.y += 0.007
+    PlusMD.rotation.z += 0.001
+    PlusMD.rotation.x += 0.003
+    
+    ProMD.rotation.x += 0.003
+    ProMD.rotation.y += 0.008
+
+    rendererBasic.render( sceneBasic, camera )
+    rendererPlus.render( scenePlus, camera )
+    rendererPro.render ( scenePro, camera )
     window.requestAnimationFrame( tick )
 
 }
