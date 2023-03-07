@@ -30,8 +30,6 @@ h1 {
     /* margin-bottom: 3em; */
   }
 
-
-
   p {
     font-weight: lighter;
     color: rgb(207, 206, 206);
@@ -47,8 +45,6 @@ h1 {
   margin: auto; /* this centers */
   /* margin-top: 2em; */
 }
-
-
 
 .heroImage {
   width: 100%;
@@ -118,7 +114,6 @@ h1 {
   font-weight: bold;
 }
 
-
 .ulEfficiencies {
   list-style-type: none;
   margin: 2.5em;
@@ -129,8 +124,6 @@ h1 {
   background-color: rgba(0, 0, 0, 0.116);
   border-radius: 10px;
 }
-
-
 
 .sectionFour {
   background-image: url("./assets/amberbackground-01.svg");
@@ -156,14 +149,14 @@ h1 {
 }
 
 .requestDemo1 {
-  position: relative;
   z-index: 100;
-  width: 18%;
+  width: 3em;
   min-width: 250px;
   margin: auto;
   margin-right: 100px;
   margin-top: -35px;
 }
+
 
 .requestDemoText {
   position: relative;
@@ -179,7 +172,17 @@ h1 {
   width: 100%;
   height: 65px;
   font-size: 20px;
+  
 }
+
+.requestDemoText:hover {
+  background-color: #5027a8;
+  border-width: 7px;
+  width: 105%;
+  
+}
+
+
 
 .orangeEmpower {
   font-weight: lighter;
@@ -209,15 +212,7 @@ h5 {
   margin: auto;
 }
 
-.mobilityDirectBasic {
-   
-}
-.mobilityDirectPlus {
-   
-}
-.mobilityDirectPro {
-   
-}
+.mobilityDirectBasic, .mobilityDirectPlus, .mobilityDirectPro {}
 
 .flex-container {
   display: flex;

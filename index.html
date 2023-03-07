@@ -13,6 +13,8 @@
 
   
 
+  
+
 
     <!-- HERO SECTION -->
 
@@ -35,9 +37,9 @@
     <!-- EMPOWER YOUR RIDERS THROUGH SELF-SERVICE -->
 
     <section class="sectionTwo">
-      <div class="requestDemo1">
+      <!-- <div class="requestDemo1">
         <button class="requestDemoText">REQUEST A DEMO</button>
-      </div>
+      </div> -->
       <div>
         <h1>ADA Eligibility Certification Technology</h1>
         <h2>Empower your riders through self-service</h2>
@@ -55,7 +57,9 @@
 
     <section class="sectionEfficiencies">
       <div class="requestDemo1">
-        <button class="requestDemoText">REQUEST A DEMO</button>
+        <input type="button" class="requestDemoText" onclick="window.location.href='#formstack'" value="REQUEST A DEMO"  >
+
+        <!-- <a href="#formstack" class="requestDemoText">REQUEST A DEMO</a> -->
       </div >
       <div class="divEfficiencies">
         <h2>Mobility Direct enhances your ADA eligibility process</h2>
@@ -198,7 +202,7 @@
 
     <!-- FORM SECTION -->
 
-    <!-- <section class="sectionForm">
+    <section id="formstack" class="sectionForm">
       <script
         type="text/javascript"
         src="https://mtminc.formstack.com/forms/js.php/mobility_direct"
@@ -210,7 +214,7 @@
           >Online Form - Mobility Direct Signup</a
         >
       </noscript>
-    </section> -->
+    </section> 
 
     <section class="sectionFooter">
 
@@ -225,7 +229,9 @@
 
 
    
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="./script/gsap.js"></script>
     <script src="./script/three.min.js"></script>
     <script src="./script/script.js"></script>
   </body>
