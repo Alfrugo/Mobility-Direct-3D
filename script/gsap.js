@@ -1,4 +1,8 @@
+
+gsap.registerPlugin(ScrollTrigger)
+
 gsap.from(".requestDemo1", {
     x: 400,
-    duration: 0.5
+    duration: 0.5,
+    scrollTrigger: ".ulEfficiencies"
 })
