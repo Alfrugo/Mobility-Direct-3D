@@ -1,4 +1,5 @@
 body {
+  visibility: hidden;
   font-family: "myriad-pro";
   background-color: rgb(255, 255, 255);
   border-width: 10px;
@@ -49,6 +50,7 @@ h1 {
 
 .heroImage {
   width: 100%;
+  display: hidden;
 }
 
 .hero {
