@@ -14,9 +14,14 @@ gsap.from(".heroImage", {
     x: 10,
     y: 100,
     alpha: 0,   
-    duration: 1,
+    duration: 1,    
+})
 
-    
+gsap.from(".transforming", {
+    x: 10,
+    y: 100,
+    alpha: 0,   
+    duration: 1,    
 })
 
 gsap.from("h1", {

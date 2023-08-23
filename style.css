@@ -82,6 +82,11 @@ h1 {
   display: hidden;
 }
 
+.transforming {
+  width: 100%;
+  display: hidden;
+}
+
 .hero {
   position: relative;
   margin-left: -5em;
@@ -103,9 +108,18 @@ h1 {
   }
   .heroImage {
      position: relative;
-    width: 100%;
+    width: 150%;
     display: hidden;
-    margin: auto
+    margin: auto;
+    margin-left: -70px;
+    margin-top: -20px;
+  }
+  .transforming {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: -60px;
   }
 }
   
@@ -130,7 +144,6 @@ h1 {
   }
 }
   
-
 .sectionOne {
   margin-top: 0;
   height: 65vw;
@@ -142,7 +155,7 @@ h1 {
 @media screen and (max-width: 650px) {
   .sectionOne {
     margin-top: 0;
-    height: 130vw;
+    height: 165vw;
     min-height: 30em;
     max-height: 200em;
     background-image: url("./assets/purplebackground-01.svg");
