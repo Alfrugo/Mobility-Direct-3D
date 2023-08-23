@@ -1,3 +1,6 @@
+
+
+
 body {
   visibility: hidden;
   font-family: "myriad-pro";
@@ -7,6 +10,19 @@ body {
   border-style: solid;
   margin: 0;
   
+}
+
+@media (max-width: 650px) {
+  /* for mobile only */
+  body {
+    visibility: hidden;
+    font-family: "myriad-pro";
+    border-width: 0;
+  border-color: rgb(224, 20, 20);
+  border-style: solid;
+    margin: 0;
+    width: 100%;
+  }
 }
 
 h1 {
@@ -48,6 +64,19 @@ h1 {
   /* margin-top: 2em; */
 }
 
+@media screen and (max-width: 650px) {
+  .logo {
+    /* background-color: blueviolet; */
+    position: relative;
+    padding-top: 2em;
+    z-index: 10;
+    width: 90%;
+    margin: auto; /* this centers */
+    /* margin-top: 2em; */
+  }
+}
+  
+
 .heroImage {
   width: 100%;
   display: hidden;
@@ -58,19 +87,40 @@ h1 {
   margin-left: -5em;
   margin-bottom: -5em;
   margin-top: -4em;
-  width: 75%;
+  width: 100%;
   max-width: 60em;
   min-width: 35em;
 }
+@media screen and (max-width: 650px) {
+  .hero {
+    position: relative;
+    margin-left: 0em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    width: 100%;
+  }
+}
+  
+
 
 .titleOne {
   position: relative;
-  /* background-color: brown; */
   width: 35%;
   min-width: 300px;
   margin-top: -400px;
   margin-left: 60%;
 }
+
+@media screen and (max-width: 650px) {
+  .titleOne {
+    position: relative;
+    /* background-color: brown; */
+    width: 100%;
+    min-width: 300px;
+    margin-left: 0%;
+  }
+}
+  
 
 .sectionOne {
   margin-top: 0;
@@ -111,7 +161,6 @@ h1 {
 }
 
 .divEfficiencies li {
-  /* margin: 30px, 30px, 30px, 30px; */
   text-align: justify;
   padding: 1.5em 2em 0.75em 2em;
 }
@@ -233,8 +282,7 @@ h5 {
   margin: auto;
 }
 
-.mobilityDirectBasic, .mobilityDirectPlus, .mobilityDirectPro {}
-
+/* Tiers */
 .flex-container {
   display: flex;
   margin: auto;
@@ -245,6 +293,8 @@ h5 {
   margin: auto;
   text-align: center;
 }
+
+
 
 .tierDescriptionPro {
   background-color: #452d9d;
