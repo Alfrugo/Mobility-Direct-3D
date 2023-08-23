@@ -15,7 +15,6 @@ body {
 @media (max-width: 650px) {
   /* for mobile only */
   body {
-    visibility: hidden;
     font-family: "myriad-pro";
     border-width: 0;
   border-color: rgb(224, 20, 20);
@@ -76,15 +75,12 @@ h1 {
   }
 }
   
-
 .heroImage {
   width: 100%;
-  display: hidden;
 }
 
 .transforming {
   width: 100%;
-  display: hidden;
 }
 
 .hero {
@@ -95,6 +91,7 @@ h1 {
   width: 100%;
   max-width: 60em;
   min-width: 35em;
+  overflow: hidden;
 }
 @media screen and (max-width: 650px) {
   .hero {
@@ -107,9 +104,9 @@ h1 {
     width: 100%;
   }
   .heroImage {
-     position: relative;
+    position: relative;
     width: 150%;
-    display: hidden;
+    overflow: hidden;
     margin: auto;
     margin-left: -70px;
     margin-top: -20px;
@@ -123,8 +120,6 @@ h1 {
   }
 }
   
-
-
 .titleOne {
   position: relative;
   width: 35%;
@@ -136,7 +131,6 @@ h1 {
 @media screen and (max-width: 650px) {
   .titleOne {
     position: relative;
-    display: hidden;
     /* background-color: brown; */
     width: 100%;
     min-width: 300px;
@@ -187,7 +181,6 @@ h1 {
   }
 }
   
-
 .sectionEfficiencies {
 
   min-height: 10em;
