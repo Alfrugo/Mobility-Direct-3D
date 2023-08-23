@@ -136,6 +136,7 @@ h1 {
 @media screen and (max-width: 650px) {
   .titleOne {
     position: relative;
+    display: hidden;
     /* background-color: brown; */
     width: 100%;
     min-width: 300px;
