@@ -93,11 +93,18 @@ h1 {
 }
 @media screen and (max-width: 650px) {
   .hero {
+    display: block;
     position: relative;
     margin-left: 0em;
     margin-bottom: 0em;
     margin-top: 0em;
     width: 100%;
+  }
+  .heroImage {
+     position: relative;
+    width: 90%;
+    display: block;
+    margin: auto
   }
 }
   
@@ -118,6 +125,7 @@ h1 {
     width: 100%;
     min-width: 300px;
     margin-left: 0%;
+    margin-top: 0px;
   }
 }
   
@@ -130,6 +138,16 @@ h1 {
   background-image: url("./assets/purplebackground-01.svg");
 }
 
+@media screen and (max-width: 650px) {
+  .sectionOne {
+    margin-top: 0;
+    height: 130vw;
+    min-height: 30em;
+    max-height: 200em;
+    background-image: url("./assets/purplebackground-01.svg");
+  }
+}
+
 .sectionTwo {
   min-height: 10em;
   max-height: 40em;
@@ -139,6 +157,21 @@ h1 {
   border-style: solid;
   padding: 0 3em 3em 3em;
 }
+
+@media screen and (max-width: 650px) {
+  .sectionTwo {
+    min-height: 10em;
+    max-height: 40em;
+    background-image: url("./assets/orangebackground-01.svg");
+    border-top: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 50px 3em 3em 3em;
+  }
+}
+  
 
 .sectionEfficiencies {
 
@@ -293,6 +326,21 @@ h5 {
   margin: auto;
   text-align: center;
 }
+
+@media screen and (max-width: 650px) {
+  .flex-container {
+    display: block
+    margin: auto;
+    width: 95%;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+  
 
 
 
