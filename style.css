@@ -21,6 +21,7 @@ body {
   border-style: solid;
     margin: 0;
     width: 100%;
+    padding: 0;
   }
 }
 
@@ -170,7 +171,7 @@ h1 {
 @media screen and (max-width: 650px) {
   .sectionTwo {
     min-height: 10em;
-    max-height: 40em;
+    max-height: 60em;
     background-image: url("./assets/orangebackground-01.svg");
     border-top: 10px;
     border-left: 0px;
@@ -178,6 +179,7 @@ h1 {
     border-color: rgb(255, 255, 255);
     border-style: solid;
     padding: 50px 3em 3em 3em;
+
   }
 }
   
@@ -437,6 +439,14 @@ h5 {
 form {
   width: 78%;
 }
+
+@media screen and (max-width: 650px) {
+  form {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+  
 
 /* end of section */
 
