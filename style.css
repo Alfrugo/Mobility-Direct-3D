@@ -93,17 +93,18 @@ h1 {
 }
 @media screen and (max-width: 650px) {
   .hero {
-    display: block;
     position: relative;
     margin-left: 0em;
     margin-bottom: 0em;
     margin-top: 0em;
+    max-width: 40em;
+    min-width: 5em;
     width: 100%;
   }
   .heroImage {
      position: relative;
-    width: 90%;
-    display: block;
+    width: 100%;
+    display: hidden;
     margin: auto
   }
 }
@@ -180,7 +181,7 @@ h1 {
   border-top: 10px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
-  padding: 0 3em 3em 0em;
+  padding: 0;
 }
 
 .greenTitle {
@@ -214,6 +215,36 @@ h1 {
   background-color: rgba(0, 0, 0, 0.116);
   border-radius: 10px;
 }
+
+@media screen and (max-width: 650px) {
+  .ulEfficiencies {
+    display: block;
+    list-style-type: none;
+    margin: 0em;
+    padding: 0px;
+    font-weight: lighter;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+  }
+
+  .divEfficiencies li {
+    display: block;
+    text-align: justify;
+    padding: 0px;
+  }
+
+  .divEfficiencies {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    
+  }
+}
+  
+
 
 .sectionFour {
   background-image: url("./assets/amberbackground-01.svg");
