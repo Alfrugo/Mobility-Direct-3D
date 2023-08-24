@@ -432,6 +432,19 @@ h5 {
   /* margin-top: -2em; */
 }
 
+@media screen and (max-width: 650px) {
+  .flex-facility-container {
+    display: block;
+  }
+  .flex-facility-container > div {
+    /* background-color: blueviolet; */
+    margin: auto;
+    width: 100%;
+    padding: 0 2em 0 2em;
+    /* margin-top: -2em; */
+  }
+}
+  
 
 
 /* section form */
