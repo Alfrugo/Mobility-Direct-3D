@@ -449,13 +449,16 @@ h5 {
 
 /* section form */
 
-form {
+.sectionForm {
+ 
   width: 78%;
+  margin: auto;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 650px) {
-  form {
-    width: 100%;
+  .sectionForm {
+    width: 90%;
     overflow: hidden;
   }
 }
