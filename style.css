@@ -199,12 +199,10 @@ h1 {
 
 .divEfficiencies {
   margin: auto;
-  text-align: center;
   padding: 6em 0 0 4em;
 }
 
 .divEfficiencies li {
-  text-align: justify;
   padding: 1.5em 2em 0.75em 2em;
 }
 
@@ -221,11 +219,12 @@ h1 {
   font-weight: lighter;
   color: white;
   font-size: 1.5em;
-  background-color: rgba(0, 0, 0, 0.116);
   border-radius: 10px;
 }
 
 @media screen and (max-width: 650px) {
+
+
   .ulEfficiencies {
     display: block;
     list-style-type: none;
@@ -234,21 +233,15 @@ h1 {
     font-weight: lighter;
     color: white;
     font-size: 1.5em;
-    background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
   }
 
   .divEfficiencies li {
-    display: block;
-    text-align: justify;
     padding: 0px;
   }
 
   .divEfficiencies {
-    display: block;
     margin: auto;
-    text-align: center;
-    padding: 50px;
     
   }
 }
