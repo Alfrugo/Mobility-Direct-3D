@@ -132,7 +132,6 @@ h1 {
 @media screen and (max-width: 650px) {
   .titleOne {
     position: relative;
-    /* background-color: brown; */
     width: 100%;
     min-width: 300px;
     margin-left: 0%;
@@ -193,10 +192,6 @@ h1 {
   padding: 0;
 }
 
-.greenTitle {
-  color: white;
-}
-
 .divEfficiencies {
   margin: auto;
   padding: 6em 0 0 4em;
@@ -205,6 +200,35 @@ h1 {
 .divEfficiencies li {
   padding: 1.5em 2em 0.75em 2em;
 }
+
+
+@media screen and (max-width: 650px) {
+  .sectionEfficiencies {
+    min-height: 10em;
+    background-image: url("./assets/green-background.svg");
+    background-color: #99ac63;
+    background-repeat: no-repeat;
+    border-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 25px;
+  }
+
+  .divEfficiencies {
+    margin: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .divEfficiencies li {
+    padding: 0;
+  }
+}
+.greenTitle {
+  color: white;
+}
+
+
+
 
 .span-class {
   color: #ffffff;
@@ -215,7 +239,7 @@ h1 {
 .ulEfficiencies {
   list-style-type: none;
   margin: 2.5em;
-  padding: 30px;
+  /* padding: 30px; */
   font-weight: lighter;
   color: white;
   font-size: 1.5em;
@@ -224,9 +248,7 @@ h1 {
 
 @media screen and (max-width: 650px) {
 
-
   .ulEfficiencies {
-    display: block;
     list-style-type: none;
     margin: 0em;
     padding: 0px;
@@ -237,6 +259,8 @@ h1 {
   }
 
   .divEfficiencies li {
+    display: block;
+
     padding: 0px;
   }
 
@@ -246,7 +270,7 @@ h1 {
   }
 }
   
-
+/* ORANGE section */
 
 .sectionFour {
   background-image: url("./assets/amberbackground-01.svg");
@@ -308,7 +332,6 @@ margin-right: 10px;
   width: 100%;
   height: 65px;
   font-size: 20px;
-  
 }
 
 .requestDemoText:hover {
@@ -317,8 +340,6 @@ margin-right: 10px;
   width: 105%;
   
 }
-
-
 
 .orangeEmpower {
   font-weight: lighter;
