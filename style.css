@@ -338,6 +338,36 @@ h1 {
   margin-bottom: -75px;
 }
 
+@media screen and (max-width: 650px) {
+  .sectionFour {
+    background-image: url("./assets/amberbackground-01.svg");
+    border-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 0 0em 0em 0em;
+    margin: auto;
+  }
+
+  .sectionFourtext {
+    padding: 4em 4em 4em 4em;
+    margin-left: -50px;
+  }
+
+  .transformingFac, .transformingFac2 {
+    max-width: 500px;
+    margin: auto;
+    padding: 0;
+  }
+
+  .facilityRender {
+    width: 90%;
+    margin-bottom: -75px;
+    margin-top: -50px;
+    padding-left: 20px;
+  }
+
+}
+
 .requestDemo1, .requestDemo2, .requestDemo3 {
   z-index: 100;
   width: 3em;
@@ -396,6 +426,20 @@ h5 {
   border-style: solid;
   padding: 0 3em 3em 3em;
   margin: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .sectionTiers {
+    background-image: url("./assets/anoption-01.svg");
+    background-color: #e6e7e8;
+    background-repeat: no-repeat;
+    border-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 0 0em 0em 0em;
+    margin: auto;
+  }
+
 }
 
 /* Tiers */
@@ -539,6 +583,38 @@ h5 {
   margin: auto;
   /* margin: auto; this centers */
   /* margin-top: 2em; */
+}
+
+@media screen and (max-width: 650px) {
+  
+  .sectionFooter {
+    background-image: url("./assets/purplebackground-01.svg");
+    border-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 10;
+  }
+  
+  .flex-footer-container {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: lighter;
+  }
+
+  .logoFooter {
+    /* background-color: blueviolet; */
+    display: block;
+    position: relative;
+    padding: 0em 0em 0em 0;
+    z-index: 10;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    /* margin: auto; this centers */
+    /* margin-top: 2em; */
+  }
 }
 
 h6 {
