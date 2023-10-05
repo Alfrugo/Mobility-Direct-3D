@@ -190,10 +190,10 @@ h1 {
   border-color: rgb(255, 255, 255);
   border-style: solid;
   padding: 0;
+  align-items: center;
 }
 
 .divEfficiencies {
-  margin: auto;
   padding: 6em 0 0 4em;
 }
 
@@ -201,40 +201,52 @@ h1 {
   padding: 1.5em 2em 0.75em 2em;
 }
 
+.span-class {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 650px) {
   .sectionEfficiencies {
+    display: block;
     min-height: 10em;
     background-image: url("./assets/green-background.svg");
-    background-color: #99ac63;
+    background-color: #bcd03b;
     background-repeat: no-repeat;
     border-top: 10px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    padding: 25px;
+    padding: 36px;
+    margin: auto;
   }
 
   .divEfficiencies {
+    display: block;
+
     margin: auto;
     padding: 0;
     margin: 0;
   }
   .divEfficiencies li {
+    display: block;
     padding: 0;
+    margin: auto  ;
+  }
+
+  .span-class {
+    display: block;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+
   }
 }
 .greenTitle {
   color: white;
 }
 
-
-
-
-.span-class {
-  color: #ffffff;
-  font-size: 1.5em;
-  font-weight: bold;
-}
 
 .ulEfficiencies {
   list-style-type: none;
@@ -245,6 +257,22 @@ h1 {
   font-size: 1.5em;
   border-radius: 10px;
 }
+
+.liThumbnail {
+  display: inline;
+  float: left;
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-right: 10px;
+  
+  
+  }
+  .thumbNail {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
 
 @media screen and (max-width: 650px) {
 
@@ -259,8 +287,7 @@ h1 {
   }
 
   .divEfficiencies li {
-    display: block;
-
+    
     padding: 0px;
   }
 
@@ -268,6 +295,21 @@ h1 {
     margin: auto;
     
   }
+  .liThumbnail {
+    margin: auto;
+
+    display: block;
+    float: none;
+    padding-top: 50px;
+    padding-left: 0px;  
+    }
+
+    .thumbNail {
+      width: 80px;
+      height: 80px;
+      margin: auto;
+      padding-left: 100px;
+    }
 }
   
 /* ORANGE section */
@@ -281,20 +323,7 @@ h1 {
   margin: auto;
 }
 
-.liThumbnail {
-display: inline;
-float: left;
-padding-top: 40px;
-padding-left: 40px;
-margin-right: 10px;
 
-}
-.thumbNail {
-  width: 80px;
-  height: 80px;
-  margin: 0 0 0 0;
-
-}
 .sectionFourtext {
   padding: 0em 0em 0em 3em;
 }
