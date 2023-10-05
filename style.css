@@ -438,6 +438,7 @@ h5 {
     border-style: solid;
     padding: 0 0em 0em 0em;
     margin: auto;
+    padding-bottom: 50px;
   }
 
 }
@@ -454,19 +455,7 @@ h5 {
   text-align: center;
 }
 
-@media screen and (max-width: 650px) {
-  .flex-container {
-    display: block
-    margin: auto;
-    width: 95%;
-    color: rgb(255, 255, 255);
-    font-size: 1.3em;
-    font-weight: lighter;
-    margin: auto;
-    text-align: center;
-    flex-direction: column;
-  }
-}
+
   
 
 
@@ -501,6 +490,51 @@ h5 {
   padding: 30px;
 }
     
+
+@media screen and (max-width: 650px) {
+  .flex-container {
+    display: block
+    margin: auto;
+    width: 95%;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .requestDemo1 {
+    z-index: 100;
+    width: 3em;
+    min-width: 250px;
+    margin: auto;
+    margin-right: 100px;
+    margin-top: -75px;
+    padding-bottom: 30px;
+  }
+
+  /* .requestDemo3 {
+    z-index: 100;
+    width: 3em;
+    min-width: 250px;
+    margin: auto;
+    margin-right: 100px;
+    margin-top: -35px;
+
+  } */
+
+  .tierDescriptionPro {
+    background-color: #452d9d;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 30px;
+    padding-bottom: 50px;
+    margin: 10px;
+  }
+}
 /* end of section */
 
 
